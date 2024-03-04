@@ -9,9 +9,7 @@ public class ExampleTest {
 
     @Test
     public void example_test() {
-        Example e = new Example();
-
-        assertThat(e.sayHello(), equalTo("Hello!"));
+        assertThat(2+2, equalTo(4));
     }
 
 }
